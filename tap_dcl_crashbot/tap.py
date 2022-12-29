@@ -5,7 +5,7 @@ from typing import List
 from singer_sdk import Tap, Stream
 from singer_sdk import typing as th  # JSON schema typing helpers
 # TODO: Import your custom stream types here:
-from tap_dcl_crashbot.streams import (
+from tap_decentraland_crashbot.streams import (
     DCLCrashbotStream,
     IncidentsListStream,
 )
@@ -18,7 +18,7 @@ STREAM_TYPES = [
 
 class TapDCLCrashbot(Tap):
     """DCLCrashbot tap class."""
-    name = "tap-dcl-crashbot"
+    name = "tap-decentraland-crashbot"
 
     config_jsonschema = th.PropertiesList(
         th.Property(

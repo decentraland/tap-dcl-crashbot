@@ -1,1 +1,1 @@
-"""Test suite for tap-dcl-crashbot."""
+"""Test suite for tap-decentraland-crashbot."""

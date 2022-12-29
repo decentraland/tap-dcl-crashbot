@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "tap-dcl-crashbot"
+name = "tap-decentraland-crashbot"
 version = "0.0.1"
-description = "`tap-dcl-crashbot` is a Singer tap for DCLCrashbot, built with the Meltano Singer SDK."
+description = "`tap-decentraland-crashbot` is a Singer tap for DCLCrashbot, built with the Meltano Singer SDK."
 authors = ["Pablo Seibelt"]
 keywords = [
     "ELT",
@@ -31,7 +31,7 @@ s3 = ["fs-s3fs"]
 [tool.isort]
 profile = "black"
 multi_line_output = 3 # Vertical Hanging Indent
-src_paths = "tap_dcl_crashbot"
+src_paths = "tap_decentraland_crashbot"
 
 [build-system]
 requires = ["poetry-core>=1.0.8"]
@@ -39,4 +39,4 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 # CLI declaration
-tap-dcl-crashbot = 'tap_dcl_crashbot.tap:TapDCLCrashbot.cli'
+tap-decentraland-crashbot = 'tap_decentraland_crashbot.tap:TapDCLCrashbot.cli'

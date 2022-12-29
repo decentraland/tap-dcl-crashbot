@@ -1,4 +1,4 @@
-"""Stream type classes for tap-dcl-crashbot."""
+"""Stream type classes for tap-decentraland-crashbot."""
 
 from pathlib import Path
 from typing import Any, Dict, Optional, Union, List, Iterable
@@ -6,7 +6,7 @@ import requests
 
 from singer_sdk import typing as th  # JSON Schema typing helpers
 
-from tap_dcl_crashbot.client import DCLCrashbotStream
+from tap_decentraland_crashbot.client import DCLCrashbotStream
 
 SCHEMAS_DIR = Path(__file__).parent / Path("./schemas")
 

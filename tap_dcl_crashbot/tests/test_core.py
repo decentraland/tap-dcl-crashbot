@@ -4,7 +4,7 @@ import datetime
 
 from singer_sdk.testing import get_standard_tap_tests
 
-from tap_dcl_crashbot.tap import TapDCLCrashbot
+from tap_decentraland_crashbot.tap import TapDCLCrashbot
 
 SAMPLE_CONFIG = {
     "start_date": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
